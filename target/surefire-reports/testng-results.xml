@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44535" started-at="2020-08-22T05:23:52Z" finished-at="2020-08-22T05:24:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="44535" started-at="2020-08-22T05:23:52Z" finished-at="2020-08-22T05:24:36Z">
+      <class name="quick.Asample.AsTest">
+        <test-method status="PASS" signature="beforeany()[pri:0, instance:quick.Asample.AsTest@6f43c82]" name="beforeany" is-config="true" duration-ms="37998" started-at="2020-08-22T10:53:52Z" finished-at="2020-08-22T10:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeany -->
+        <test-method status="PASS" signature="imp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:quick.Asample.AsTest@6f43c82]" name="imp" duration-ms="4355" started-at="2020-08-22T10:54:30Z" data-provider="provide" finished-at="2020-08-22T10:54:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prerna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prerna.pandey@metlife.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[New framework1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imp -->
+        <test-method status="PASS" signature="fin()[pri:0, instance:quick.Asample.AsTest@6f43c82]" name="fin" is-config="true" duration-ms="1534" started-at="2020-08-22T10:54:35Z" finished-at="2020-08-22T10:54:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin -->
+      </class> <!-- quick.Asample.AsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
